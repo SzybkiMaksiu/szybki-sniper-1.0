@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "szybki-sniper",
+  "version": "1.0.0",
+  "name": "Szybki-Sniper",
+  "description": "Automatyczne szybkie kupowanie przedmiotów z rynku Minecraft",
+  "authors": ["SzybkiMaksiu"],
+  "license": "MIT",
+  "icon": "assets/szybki-sniper/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["pl.szybkimaksiu.autorynek.SzybkiSniperMod"],
+    "client": ["pl.szybkimaksiu.autorynek.client.SzybkiSniperClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": ">=1.21.3 <=1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
